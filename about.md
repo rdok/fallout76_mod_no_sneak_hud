@@ -1,5 +1,5 @@
 # Fallout 76 Mod - No Sneak Hud
-> Hides the sneak indicator when crouched. 
+> Hides the sneak indicator when crouched.  https://github.com/rdok/fallout76_mod_no_sneak_hud
 
 - *Game Version:* 1.6.4.65
 - Install with [Vortex](https://www.nexusmods.com/about/vortex/).

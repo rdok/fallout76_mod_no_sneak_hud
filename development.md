@@ -1,3 +1,5 @@
+### Status: Blocked
+Attempting to load the modded file either causes a freeze upon login, or does no changes.
 
 ### Workflow
 - [How to make a custom UI by editing HUDMenu.swf](https://www.nexusmods.com/fallout4/articles/10) follow the tutorial to extract SeventySix - Interface.ba2, and get the hudmenu.swf
@@ -20,3 +22,6 @@ PlaceObject3 (~800) Depth: 3 (BracketRightInstance)
 PlaceObject3 (~803) Depth: 5 (BracketLeftInstance)
 
 ![framed_moved_showcase.png](https://raw.githubusercontent.com/rdok/fallout76_mod_no_sneak_hud/main/framed_moved_showcase.png)
+
+#### Sources
+- [Flash SWF Editing](https://wiki.nexusmods.com/index.php/Flash_SWF_Editing)
