@@ -1,5 +1,5 @@
 $archive2Path = Join-Path $PSScriptRoot "../libraries/Quick Configuration v1.12.7/Archive2/Archive2.exe"
-$srcPath = Join-Path $PSScriptRoot "../src/interface/"
+$srcPath = Join-Path $PSScriptRoot "../src"
 
 $packageJsonPath = Join-Path -Path $PSScriptRoot -ChildPath "..\package.json"
 $jsonContent = Get-Content -Path $packageJsonPath -Raw
@@ -12,7 +12,7 @@ if (-Not (Test-Path -Path $archive2Path)) {
 
 & $archive2Path $srcPath -create="dist/NoStealthMeter.ba2"
 
-$buildName="no_stealth_meter_${version}.7z"
+$buildName="No Stealth Meter ${version}.7z"
 $ba2Name="NoStealthMeter.ba2"
 Remove-Item -LiteralPath $buildName -Force -Recurse
 .\node_modules\7z-bin\win32\7z.exe a $buildName ".\dist\${ba2Name}"
