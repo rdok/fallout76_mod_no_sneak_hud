@@ -6,8 +6,7 @@
  
 [![Steal Meter Hidden Showcase](https://raw.githubusercontent.com/rdok/fallout76_mod_no_stealth_meter/main/documentation/stealth_meter_hidden_showcase.webp)](https://www.nexusmods.com/fallout76/mods/1070)
 
-
-- *Game Version:* 1.6.4.65
+- Fallout 76 Version: 1.7.12.8
 - Install with [Vortex](https://www.nexusmods.com/about/vortex/).
 
 ### Features
