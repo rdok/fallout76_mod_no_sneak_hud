@@ -18,12 +18,8 @@ sResourceArchive2List = NoStealthMeter.ba2
 ```
 - You may use the `.\scripts\build_dev_deploy.ps1` which refreshes the installed mod with any additionally changes.
 
-![framed_moved_showcase.png](https://raw.githubusercontent.com/rdok/fallout76_mod_no_sneak_hud/main/framed_moved_showcase.png)
-
 #### Sources
 - [Flash SWF Editing](https://wiki.nexusmods.com/index.php/Flash_SWF_Editing)
 - [HUD Modding guide for Fallout 76](https://github.com/sdaskaliesku/fo76modding)
 - [FO76Edit](https://www.nexusmods.com/fallout76/mods/30)
 - [HUDEditor - Customize your HUD](https://www.nexusmods.com/fallout76/mods/953)
-
-#### Installation
