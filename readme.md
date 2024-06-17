@@ -4,7 +4,7 @@
 
 > Hides the stealth meter when crouched.
  
-[![Steal Meter Hidden Showcase](stealth_meter_hidden_showcase.webp)](https://www.nexusmods.com/fallout76/mods/1070)
+[![Steal Meter Hidden Showcase](https://raw.githubusercontent.com/rdok/fallout76_mod_no_stealth_meter/main/documentation/stealth_meter_hidden_showcase.webp)](https://www.nexusmods.com/fallout76/mods/1070)
 
 
 - *Game Version:* 1.6.4.65
