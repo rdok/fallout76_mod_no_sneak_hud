@@ -1,0 +1,1 @@
+- Automate/improve the process of hiding the HUD by using https://www.nexusmods.com/fallout76/mods/953 as a template.
