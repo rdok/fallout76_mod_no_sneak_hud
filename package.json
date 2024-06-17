@@ -1,0 +1,13 @@
+{
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rdok/fallout76_mod_no_stealth_meter"
+  },
+  "author": "Rizart Dokollari",
+  "name": "fallout76_mod_no_stealth_meter",
+  "version": "1.2.2",
+  "devDependencies": {
+    "7z-bin": "Nexus-Mods/7z-bin"
+  },
+  "license": "GPL-3.0"
+}
