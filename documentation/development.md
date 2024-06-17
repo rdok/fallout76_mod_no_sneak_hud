@@ -7,21 +7,16 @@
 - [How to make a custom UI by editing HUDMenu.swf](https://www.nexusmods.com/fallout4/articles/10) follow the tutorial to extract only the `hudmenu.swf` from SeventySix - Interface.ba2
 - Open `hudmenu.swf` with [JPEXS Free Flash Decompiler](https://github.com/jindrapetrik/jpexs-decompiler/releases/tag/version20.1.0)
     - Click on the left sidebar, and then `Ctrl+F` to open the finder menu. Copy and paste `StealthMeter`.
-- Expand the sprites folder, and click on the HUDMenu_fla package. Next scroll down to the StealthMeterInternal and change matrix object translateY to 42000:
-Undetected
-
-#### Undetected
+- Translate the Y to 42000 for all objects in frame 1 (undetected), and frame 15 (detected mode)
+- Save
+- Use PowerShell to build the mod: `.\scripts\build.ps1`. 
+- Use Vortex to install the newly created mod
+- Ensure Vortex has enabled the mod by checking the file `%USERPROFILE%\Documents\My Games\Fallout 76\Fallout76Custom.ini`.
+```ini
+[Archive]
+sResourceArchive2List = NoStealthMeter.ba2
 ```
-frame 1
-PlaceObject2 (~791) Depth: 1 (stealthTextStates)
-PlaceObject3 (~794) Depth: 3 (BracketRightInstance)
-PlaceObject3 (~797) Depth: 5 (BracketLeftInstance)
-```
-
-#### Detected/in combat
-frame 15
-PlaceObject3 (~800) Depth: 3 (BracketRightInstance)
-PlaceObject3 (~803) Depth: 5 (BracketLeftInstance)
+- You may use the `.\scripts\build_dev_deploy.ps1` which refreshes the installed mod with any additionally changes.
 
 ![framed_moved_showcase.png](https://raw.githubusercontent.com/rdok/fallout76_mod_no_sneak_hud/main/framed_moved_showcase.png)
 
@@ -30,3 +25,5 @@ PlaceObject3 (~803) Depth: 5 (BracketLeftInstance)
 - [HUD Modding guide for Fallout 76](https://github.com/sdaskaliesku/fo76modding)
 - [FO76Edit](https://www.nexusmods.com/fallout76/mods/30)
 - [HUDEditor - Customize your HUD](https://www.nexusmods.com/fallout76/mods/953)
+
+#### Installation
