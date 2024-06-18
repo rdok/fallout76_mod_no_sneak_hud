@@ -1,4 +1,4 @@
-### Deployment
+## Deployment
 
 This is now automated. Use PowerShell to execute: `.\scripts\build.ps1`
 

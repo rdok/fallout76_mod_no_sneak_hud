@@ -9,6 +9,6 @@
 - Fallout 76 Version: 1.7.12.8
 - Install with [Vortex](https://www.nexusmods.com/about/vortex/).
 
-### Features
+## Features
 - Hide stealth meter using normal armor, e.g. combat armor or apparel
 - Power armor is not supported; immersion wise speaking, sneaking in said armor does not make sense.
