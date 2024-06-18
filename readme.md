@@ -1,5 +1,5 @@
 # Fallout 76 Mod - No Stealth Meter
-[![nexus-mods-page](https://img.shields.io/badge/Nexus%20Mod-No%20Stealth%20Meter%20-orange?style=flat-square&logo=spinrilla)](https://next.nexusmods.com/skyrimspecialedition/collections/jqekb9)
+[![nexus-mods-page](https://img.shields.io/badge/Nexus%20Mod-No%20Stealth%20Meter%20-orange?style=flat-square&logo=spinrilla)](https://www.nexusmods.com/fallout76/mods/1070)
 [![github-repository](https://img.shields.io/badge/GitHub-Repository-green?style=flat-square&logo=github)](https://github.com/rdok/fallout76_mod_no_stealth_meter)
 
 > Hides the stealth meter when crouched.
