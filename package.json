@@ -7,7 +7,23 @@
   "name": "fallout76_mod_no_stealth_meter",
   "version": "1.2.2",
   "devDependencies": {
-    "7z-bin": "Nexus-Mods/7z-bin"
+    "7z-bin": "Nexus-Mods/7z-bin",
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.4",
+    "npm-check": "^6.0.1",
+    "prettier": "3.3.2"
   },
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "release": "node scripts/release.js",
+    "build_install": "node scripts/build_install.js",
+    "build_install:watch": "nodemon --watch src -e \"*\" scripts/build_install.js",
+    "prettier": "prettier --check .",
+    "prettier:fix": "prettier --write .",
+    "update:dependencies": "npm-check -u"
+  },
+  "engines": {
+    "node": "20"
+  }
 }
