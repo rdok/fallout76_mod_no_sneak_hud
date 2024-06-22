@@ -17,5 +17,5 @@ try {
 
 const ba2Name = process.env.NO_STEALTH_METER_BA2;
 execSync(
-  `.\\node_modules\\7z-bin\\win32\\7z.exe a "${buildName}" ".\\dist\\${ba2Name}"`,
+  `.\\node_modules\\7z-bin\\win32\\7z.exe a ".\\dist\\${buildName}" ".\\dist\\${ba2Name}"`,
 );
