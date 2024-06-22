@@ -1,1 +1,8 @@
 - Automate/improve the process of hiding the HUD by using https://www.nexusmods.com/fallout76/mods/953 as a template.
+- Hide stealtch attack x2 message
+- dynamic health/ap
+- no xp sund
+- hide enemi health bar
+- hide rank 
+- hide xp bar
+- hide enemy level
