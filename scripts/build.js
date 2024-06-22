@@ -1,7 +1,7 @@
 const { join } = require("path");
 const { existsSync } = require("fs");
 const { execSync } = require("child_process");
-require('dotenv').config()
+require("dotenv").config();
 
 const archive2Exe = join(
   __dirname,
