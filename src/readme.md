@@ -1,0 +1,2 @@
+The `base_hudmenu` contains only new base classes. This is in order to make the build.js tool to automate import any new changes from the `scripts` folder; this is to bypass the `ffdecbat -importScript` limitation of importing existing scripts only.:
+- `NoStealthMeter`
