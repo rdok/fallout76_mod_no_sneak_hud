@@ -4,17 +4,15 @@
  * This builds and copies paste the ba2 directly the fallout76 installation directory.
  */
 const { join } = require("path");
-const { existsSync, copyFileSync, unlinkSync } = require("fs");
+const { existsSync, copyFileSync } = require("fs");
 const { execSync } = require("child_process");
 require("dotenv").config();
 
-const currentDirectory = __dirname;
-
-const buildScriptPath = join(currentDirectory, "./build.js");
+const buildScriptPath = join(__dirname, "./build.js");
 execSync(`node "${buildScriptPath}"`);
 
 const ba2Name = process.env.NO_STEALTH_METER_BA2;
-const ba2SourceFilename = join(currentDirectory, "../dist", ba2Name);
+const ba2SourceFilename = join(__dirname, "../dist", ba2Name);
 
 const fallout76Directory = "D:\\SteamLibrary\\steamapps\\common\\Fallout76";
 if (!existsSync(fallout76Directory)) {
@@ -29,5 +27,4 @@ if (!existsSync(ba2DestinationFilename)) {
   throw new Error(error);
 }
 
-unlinkSync(ba2DestinationFilename);
 copyFileSync(ba2SourceFilename, ba2DestinationFilename);
