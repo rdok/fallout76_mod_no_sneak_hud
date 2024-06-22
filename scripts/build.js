@@ -5,7 +5,7 @@ require("dotenv").config();
 
 const archive2Exe = join(
   __dirname,
-  "../libraries/Quick Configuration v1.12.7/Archive2/Archive2.exe",
+  "../tools/Quick Configuration v1.12.7/Archive2/Archive2.exe",
 );
 if (!existsSync(archive2Exe)) {
   throw new Error(

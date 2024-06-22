@@ -1,3 +1,8 @@
+/**
+ * Used for developing purposes to improve productivity by automating mod re-installation.
+ *
+ * This builds and copies paste the ba2 directly the fallout76 installation directory.
+ */
 const { join } = require("path");
 const { existsSync, copyFileSync, unlinkSync } = require("fs");
 const { execSync } = require("child_process");

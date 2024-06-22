@@ -2,4 +2,4 @@ node_modules/
 dist/
 *.7z
 BAE*
-libraries/
+tools/
