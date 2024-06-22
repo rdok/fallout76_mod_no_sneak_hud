@@ -19,19 +19,21 @@ Hides the stealth meter when crouched.
 [/list]
 [size=5]Development[/size]
 
-[size=4]Dependencies[/size]
+[size=4]Tools[/size]
 [list]
 [*] Development Environment: W11
-[*] [url=https://www.nexusmods.com/fallout76/mods/546?tab=files&file_id=13110]Archive2[/url] WARNING: the latest [b]Fallout 4: Creation Kit[/b] version does not properly work anymore. Use this instead.
-[*] [url=https://www.nexusmods.com/fallout4/mods/78/?]B.A.E. - Bethesda Archive Extractor[/url]
-[*] [url=https://github.com/coreybutler/nvm-windows]NVM NodeJS[/url] for automation tools
+[*] [url=https://www.nexusmods.com/fallout76/mods/546?tab=files&file_id=13110]Archive2[/url] WARNING: the latest [b]Fallout 4: Creation Kit[/b] version does not properly work anymore. Use this instead. This tool is Bethesda's native compression tool; and generates the ba2 file.
+[*] [url=https://www.nexusmods.com/fallout4/mods/78/?]B.A.E. - Bethesda Archive Extractor[/url] Use this to export files from the compress ba2 files.
+[*] [url=https://github.com/coreybutler/nvm-windows]NVM NodeJS[/url] for automation tools to increase your productivity. For example to automate the mod installation upon any code/swf changes.
 [list]
 [*] nvm install 20[/list]
+[*] [url=https://github.com/jindrapetrik/jpexs-decompiler/releases/tag/version20.1.0]JPEXS Free Flash Decompiler[/url] Use this to directly edit swf files. As well as export swf files to source code (ActionScript)
 [*] [url=https://web.archive.org/web/20230715031747/http://www.flashdevelop.org/downloads/releases/FlashDevelop-5.3.3.zip]FlashDevelop[/url]
 [list]
-[*] [url=https://docs.fileformat.com/programming/as3proj/]as3proj[/url][/list]
-[*] https://airsdk.harman.com/download
-[*] https://github.com/BUTR/Converter.MarkdownToBBCode
+[*] IDE to edit the exported files from JPEXS, and compile them back to swf files.
+[*] [url=https://docs.fileformat.com/programming/as3proj/]as3proj[/url]
+[*] https://airsdk.harman.com/download WARNING: Use old version: AIR 33.1.1 else the compilation fails.[/list]
+[*] https://github.com/BUTR/Converter.MarkdownToBBCode Convert markdown to BBCode specifically for NexusMods BBCode.
 [/list]
 [size=4]Maintenance[/size]
 [list]
